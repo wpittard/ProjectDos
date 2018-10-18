@@ -1,0 +1,147 @@
+body{
+  height: 100vh;
+  margin: 0; 
+  padding: 0;
+  font-family: sans-serif;
+  align-items:center;
+  justify-content:center; 
+  display:flex;
+}
+
+#conatainer-box{
+  height: 95vh;
+  width: 95vw;
+  max-width: 370px; 
+  max-height: 660px;
+  min-height: 645px;
+  margin: auto; 
+  padding:0; 
+  background-color: #fff; 
+  border: solid 1px gray;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-box{
+  text-align: center;
+  padding: 0; 
+}
+
+h1{
+  font-weight: normal;
+}
+
+.center{
+  display:flex;
+  align-items:center;
+  justify-content:center;  
+}
+
+#find-iphone-icon {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 25px; 
+  display: inline;
+}
+
+.ls{
+  flex-grow: 3;
+}
+
+.ms{
+  flex-grow: 2;
+}
+
+.ss{
+  flex-grow: 1;
+}
+
+.input-block {
+  padding: 0px 27px; 
+}
+
+span{
+  height: 100%;
+}
+
+label {
+  color: #18ab18;
+  font-size: 1em;
+  width: 30%;
+}
+
+input{
+  height: 87%;
+  width: 69%;
+  font-size: 1em;
+  border: none;
+  border-radius: 8px;
+  padding-left: 10px;
+  color: #898989;
+  background-color: #fcfcfc;
+}
+
+input:focus{
+  outline: none;
+  background-color: #f5f5f5;
+  color: #898989;
+  font-size: 1em;
+}
+
+
+
+#appleID-input {
+  height: 38px;
+  border: solid 0.7px #8a8a8a;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin: auto auto;
+  caret-color: #4CAF50;
+}
+
+#password-input {
+  height: 38px;
+  border: solid 0.7px #8a8a8a;
+  border-top: 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  caret-color: #4CAF50;
+}
+
+button {
+  height: 35px;
+  width:110px;}
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #20ad20;
+}
+
+.activeButton{ 
+  color: #20ad20;
+  font-weight: bold;
+}
+
+.free-float{
+   
+    margin: 0px;
+    padding: 20px;
+    vertical-align:middle;
+    width: 100%; 
+    height: 30px; 
+    color: babyblue;
+    font-size:1.1em;
+    color: blue;
+}
